@@ -1,4 +1,4 @@
-
+<script>
 require('ext/newproject/newproject').parseSamplesJSON(
 {
 "version": "0.1",
@@ -173,3 +173,4 @@ require('ext/newproject/newproject').parseSamplesJSON(
 ]
 }
 );
+</script>
