@@ -1,4 +1,7 @@
 require("ext/newproject/newproject").parseSamplesJSON(
+{
+    version: "0.0.2",
+    sample-apps:
 [ { reponame: 'sample-counting-beads',
     caption: 'Counting Beads Game',
     tooltip: 'A simple HTML5 game for kids',
@@ -131,4 +134,5 @@ require("ext/newproject/newproject").parseSamplesJSON(
     description: 'Shake a picture of a bell and hear sounds. A demonstration of the PhoneGap media object.',
     articleurl: 'http://software.intel.com/en-us/articles/create-handbell-using-html5-and-phonegap',
     category: 'PhoneGap' } ]
+}
 );
