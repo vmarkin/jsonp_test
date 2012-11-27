@@ -121,7 +121,7 @@ require("ext/newproject/newproject").parseSamplesJSON(
     tooltip: 'BubbleLevel measures angles with the PhoneGap Accelerometer API',
     description: 'BubbleLevel measures surface angles using the PhoneGap Accelerometer API and changes its skin as a function of the device orientation.',
     articleurl: 'http://software.intel.com/en-us/articles/bubble-level-accelerometer-phonegap-api-use-example',
-    category: 'PhoneGap' },
+    category: ['PhoneGap','HTML5'] },
   { reponame: 'sample-phonegap-connect-images',
     caption: 'Labyrinth Game',
     tooltip: 'Simple game demonstrates the PhoneGap Accelerometer API.',
