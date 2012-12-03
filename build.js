@@ -40,9 +40,9 @@ for (i=0; i<apps.length; i++) {
     console.log('{');
     for (key in apps[i]) {
 	if (key != 'category')
-            console.log("'"+key+"':'"+ apps[i][key]+"',");
+            console.log('"'+key+'":"'+ apps[i][key]+'",');
         else
-            console.log("'"+key+"':", apps[i][key]);
+            console.log('"'+key+'":["' + apps[i][key] + '"]');
         
     } 
     console.log('}' + (i<apps.length-1 ? ",":""));
