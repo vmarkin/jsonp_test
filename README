@@ -1,0 +1,12 @@
+Repos contains next files:
+
+samples-apps2.json  -  example of new format of samples json file
+
+and 
+
+build.js   -  script to convert old JSON file to new format
+
+just run
+
+node build.js  ./old.json >  new.json
+
