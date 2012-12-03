@@ -1,4 +1,4 @@
-require("ext/newproject/newproject").parseSamplesJSON(
+samplesData(
 {
     version: "0.0.2",
     "sample-apps":
