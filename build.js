@@ -34,8 +34,21 @@ for (var i=0; i< test["sample-categories"].length; i++) {
     apps=apps.concat(test["sample-categories"][i].apps);
 }
 
-console.log('samplesData(\n{\n\tversion:"0.0.2",\n\t"sample-apps":');
-console.log(require('util').inspect(apps, false, null))
-console.log('}\n);');
+console.log('{"version":"0.0.2",\n\t"sample-apps":[');
+
+for (i=0; i<apps.length; i++) {
+    console.log('{');
+    for (key in apps[i]) {
+	if (key != 'category')
+            console.log("'"+key+"':'"+ apps[i][key]+"',");
+        else
+            console.log("'"+key+"':", apps[i][key]);
+        
+    } 
+    console.log('}' + (i<apps.length-1 ? ",":""));
+}
+
+
+console.log(']}');
 
 
