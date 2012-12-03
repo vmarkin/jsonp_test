@@ -1,4 +1,3 @@
-samplesData(
 {
 	version:"0.0.2",
 	"sample-apps":
@@ -135,4 +134,3 @@ samplesData(
     articleurl: 'http://software.intel.com/en-us/articles/create-handbell-using-html5-and-phonegap',
     category: [ 'PhoneGap' ] } ]
 }
-);
