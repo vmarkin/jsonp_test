@@ -1,8 +1,28 @@
 
-var test=require('./test.json');
+if (process.argv.length<=2) {
+    console.log(process.argv.length);
+    console.log('Add additional parameter:\n\t node build.js <json file>');
+    return;
+}
 
+var json_file = process.argv[2];
 
-var apps=[]
+var test=null;
+
+try {
+    test=require(json_file);
+}
+catch(err) {
+    console.log('Can\'t load JSON file\n It is unreachable or unvalid.');
+    return;
+}
+
+if (test["sample-categories"] == null) {
+    console.log ('JSON file is not valid');
+    return;
+}
+
+var apps=[];
 
 for (var i=0; i< test["sample-categories"].length; i++) {
     var category_name = test["sample-categories"][i].caption;
