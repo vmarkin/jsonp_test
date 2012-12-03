@@ -1,6 +1,6 @@
 {
-	version:"0.0.2",
-	"sample-apps":
+version:"0.0.2",
+"sample-apps":
 [ { reponame: 'sample-counting-beads',
     caption: 'Counting Beads Game',
     tooltip: 'A simple HTML5 game for kids',
