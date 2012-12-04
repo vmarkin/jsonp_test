@@ -34,7 +34,7 @@ for (var i=0; i< test["sample-categories"].length; i++) {
     apps=apps.concat(test["sample-categories"][i].apps);
 }
 
-console.log('{"version":"0.0.2",\n\t"sample-apps":[');
+console.log('samplesData(\n{"version":"0.0.2",\n\t"sample-apps":[');
 
 for (i=0; i<apps.length; i++) {
     console.log('{');
@@ -49,6 +49,6 @@ for (i=0; i<apps.length; i++) {
 }
 
 
-console.log(']}');
+console.log(']}\n);');
 
 

@@ -1,3 +1,4 @@
+samplesData(
 {"version":"0.0.2",
 	"sample-apps":[
 {
@@ -158,7 +159,7 @@
 "tooltip":"BubbleLevel measures angles with the PhoneGap Accelerometer API",
 "description":"BubbleLevel measures surface angles using the PhoneGap Accelerometer API and changes its skin as a function of the device orientation.",
 "articleurl":"http://software.intel.com/en-us/articles/bubble-level-accelerometer-phonegap-api-use-example",
-"category":["PhoneGap","HTML5"]
+"category":["PhoneGap"]
 },
 {
 "reponame":"sample-phonegap-connect-images",
@@ -177,3 +178,4 @@
 "category":["PhoneGap"]
 }
 ]}
+);
