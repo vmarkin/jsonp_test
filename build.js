@@ -42,7 +42,7 @@ for (i=0; i<apps.length; i++) {
 	if (key != 'category')
             console.log('"'+key+'":"'+ apps[i][key]+'",');
         else
-            console.log('"'+key+'":["' + apps[i][key] + '"]');
+            console.log('"categories":["' + apps[i][key] + '"]');
         
     } 
     console.log('}' + (i<apps.length-1 ? ",":""));
