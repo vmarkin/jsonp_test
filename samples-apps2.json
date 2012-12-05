@@ -1,13 +1,13 @@
 samplesData(
 {"version":"0.0.2",
-	"sample-apps":[
+"sample-apps":[
 {
 "reponame":"sample-counting-beads",
 "caption":"Counting Beads Game",
 "tooltip":"A simple HTML5 game for kids",
 "description":"A simple game built using HTML5, JavaScript, CSS3 and jQuery that teaches young kids counting up to 50.",
 "articleurl":"http://software.intel.com/en-us/articles/porting-counting-beads-web-app-to-phonegap-app",
-"categories":["HTML5"]
+"categories":["jQuery","Game"]
 },
 {
 "reponame":"sample-html5-geolocation",
@@ -15,7 +15,7 @@ samplesData(
 "tooltip":"Use geolocation data to render graphics on a canvas element",
 "description":"This HTML5 application was built using the Geolocation and Canvas API and uses geolocation data as a mechanism in which rendering of graphics onto a canvas element takes place based on the indicated relative location.",
 "articleurl":"http://software.intel.com/en-us/articles/html5-geolocation-sample-with-canvas",
-"categories":["HTML5"]
+"categories":["Geolocation"]
 },
 {
 "reponame":"sample-flood",
@@ -23,7 +23,7 @@ samplesData(
 "tooltip":"Flood Puzzle Game",
 "description":"A flood game, similar to Color Flood or Flood-it, where the goal is to fill the field with a single color using the minimum number of color transitions",
 "articleurl":"http://software.intel.com/en-us/articles/flood-puzzle-game",
-"categories":["HTML5"]
+"categories":["Game"]
 },
 {
 "reponame":"sample-rpn-calc",
@@ -31,7 +31,7 @@ samplesData(
 "tooltip":"Reverse Polish Notation Calculator",
 "description":"A Themable Stack based calculator using reverse polish notation, akin to the HP calculators that were popular with engineers and scientists in the 1980s. Several different themes are included, with different color schemes, styles and button animations.",
 "articleurl":"http://software.intel.com/en-us/articles/rpn-calculator",
-"categories":["HTML5"]
+"categories":["CSS Theme","Utility"]
 },
 {
 "reponame":"sample-where-is-my-car",
@@ -39,7 +39,7 @@ samplesData(
 "tooltip":"Single source web app or PhoneGap app",
 "description":"Unifies startup events so that a single source code base can run as both a web app and as a PhoneGap app; while taking advantage of device features. Uses GeoLocation and LocalStorage APIs.",
 "articleurl":"http://software.intel.com/en-us/articles/where-is-my-car-web-app-and-phonegap-app",
-"categories":["HTML5"]
+"categories":["PhoneGap","Geolocation","Data Storage"]
 },
 {
 "reponame":"sample-towers-of-hanoi",
@@ -47,7 +47,7 @@ samplesData(
 "tooltip":"Animated Towers of Hanoi Puzzle",
 "description":"Illustrates use of CSS and jQuery to animate solving the Towers of Hanoi puzzle. The game dynamically scales itself to fit any screen size.",
 "articleurl":"http://software.intel.com/en-us/articles/towers-of-hanoi-using-jquery-and-css",
-"categories":["HTML5"]
+"categories":["Game","jQuery"]
 },
 {
 "reponame":"sample-jqm-listnav",
@@ -55,7 +55,7 @@ samplesData(
 "tooltip":"jQuery Mobile scaffold using list-based navigation",
 "description":"A multi-page jQuery Mobile scaffold using list-based navigation. To familiarize yourself with jQuery Mobile pages and basic widgets like toolbars and listviews.",
 "articleurl":"http://software.intel.com/en-us/articles/jquery-mobile-list-navigation",
-"categories":["HTML5"]
+"categories":["jQuery","jQuery Mobile"]
 },
 {
 "reponame":"sample-bubblewrap",
@@ -63,7 +63,7 @@ samplesData(
 "tooltip":"Scalable bubble popping game",
 "description":"Bubblewrap is a fun bubble popping game implemented with HTML5/Javascript technology that illustrates adaptation to various sized screens.",
 "articleurl":"http://software.intel.com/en-us/articles/porting-bubblewrap-web-app-to-android-and-ios-using-phonegap",
-"categories":["HTML5"]
+"categories":["jQuery","Game"]
 },
 {
 "reponame":"sample-jqm-tabnav",
@@ -71,7 +71,7 @@ samplesData(
 "tooltip":"jQuery Mobile scaffold using tab-based navigation",
 "description":"A multi-page jQuery Mobile scaffold using tab-based navigation. It also demonstrates how to create a custom options menu widget that maintains state across page transitions; and how to dynamically inject widgets into the DOM.",
 "articleurl":"http://software.intel.com/en-us/articles/jquery-mobile-tab-navigation",
-"categories":["HTML5"]
+"categories":["jQuery","jQuery Mobile"]
 },
 {
 "reponame":"sample-jqm-listview",
@@ -79,7 +79,7 @@ samplesData(
 "tooltip":"Paginated list of current DVD rentals with dynamic page generation and open web API data.",
 "description":"This jQuery Mobile sample uses the Rotten Tomatoes API to create a paginated list of current DVD rentals. It demonstrates how to populate a listview with live data from a web API, and how to dynamically generate pages.",
 "articleurl":"http://software.intel.com/en-us/articles/jquery-mobile-listview",
-"categories":["HTML5"]
+"categories":["jQuery","jQuery Mobile"]
 },
 {
 "reponame":"sample-jqm-springboard-nav",
@@ -87,7 +87,7 @@ samplesData(
 "tooltip":"jQuery Mobile scaffold using springboard-based navigation",
 "description":"A multi-page jQuery Mobile scaffold using springboard-based navigation. It also demonstrates custom styling techniques to adapt to various screen sizes and rotations, and achieve a different look and feel than jQuery Mobile defaults.",
 "articleurl":"http://software.intel.com/en-us/articles/jquery-mobile-springboard-navigation",
-"categories":["HTML5"]
+"categories":["jQuery","jQuery Mobile"]
 },
 {
 "reponame":"sample-html5-localstorage",
@@ -95,7 +95,7 @@ samplesData(
 "tooltip":"HTML5 Local Storage",
 "description":"An application that demonstrates the use HTML5 local storage: how to use HTML5 Local storage features, how to set key/value pairs and how to retrieve key/value pairs.",
 "articleurl":"http://software.intel.com/en-us/articles/html5-local-storage",
-"categories":["HTML5"]
+"categories":["Data Storage"]
 },
 {
 "reponame":"sample-html5-websqlstorage",
@@ -103,7 +103,7 @@ samplesData(
 "tooltip":"HTML5 Web SQL Storage",
 "description":"Demonstrates the HTML5 Web SQL storage features: how to set key/value pairs and how to retrieve key/value pairs using Web SQL storage.",
 "articleurl":"http://software.intel.com/en-us/articles/html5-local-storage",
-"categories":["HTML5"]
+"categories":["Data Storage"]
 },
 {
 "reponame":"sample-html5-touch-and-move",
@@ -111,7 +111,7 @@ samplesData(
 "tooltip":"Use touch and mouse events to move elements",
 "description":"Demonstrates how to create movable objects using JavaScript.",
 "articleurl":"http://software.intel.com/en-us/articles/touch-and-move-how-to-use-touch-and-mouse-events-to-move-elements-over-the-screen",
-"categories":["HTML5"]
+"categories":["Touch"]
 },
 {
 "reponame":"sample-sketchpad",
@@ -119,7 +119,7 @@ samplesData(
 "tooltip":"Simple drawing clipboard app for free style drawing with colors using touch, mouse or accelerometer.",
 "description":"Simple drawing clipboard app for free style drawing with colors using touch, mouse or accelerometer. Runs on HTML5 browser or can be wrapped in PhoneGap to run on mobile devices.",
 "articleurl":"http://software.intel.com/en-us/articles/drawing-app-using-html5-canvas",
-"categories":["HTML5"]
+"categories":["Accelerometer","jQuery","jQuery Mobile","Game"]
 },
 {
 "reponame":"sample-phonegap-audio",
@@ -159,7 +159,7 @@ samplesData(
 "tooltip":"BubbleLevel measures angles with the PhoneGap Accelerometer API",
 "description":"BubbleLevel measures surface angles using the PhoneGap Accelerometer API and changes its skin as a function of the device orientation.",
 "articleurl":"http://software.intel.com/en-us/articles/bubble-level-accelerometer-phonegap-api-use-example",
-"categories":["PhoneGap","HTML5"]
+"categories":["PhoneGap","Accelerometer"]
 },
 {
 "reponame":"sample-phonegap-connect-images",
@@ -167,7 +167,7 @@ samplesData(
 "tooltip":"Simple game demonstrates the PhoneGap Accelerometer API.",
 "description":"Connect the Intel logo with the mobile phone icon using the PhoneGap device accelerometer. The board map is generated dynamically.",
 "articleurl":"http://software.intel.com/en-us/articles/connect-intel-with-cellphone-accelerometer-phonegap-api",
-"categories":["PhoneGap"]
+"categories":["PhoneGap","Accelerometer","Game"]
 },
 {
 "reponame":"sample-phonegap-media-handbell",
